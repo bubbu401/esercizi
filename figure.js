@@ -1,10 +1,10 @@
- function areaquadrato{
+ function areaquadrato(l){
 	return l * l;
 	}
-function arearettangolo{
+function arearettangolo(b,h){
 	return b * h;
 	}
-module.export{
-	arearettangolo: rettangolo,
-	areaquadrato: quadrato
+module.exports = {
+	arearettangolo:arearettangolo,
+	areaquadrato: areaquadrato
 	};
