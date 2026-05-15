@@ -14,5 +14,6 @@ cerchio
 node area.js rettangolo 3 4 -->12
 node area.js cerchio 1 -->3,14
 node area.ja quadrato 10 -->100
+	
 	#autore 
 autore : stefano sette data: oggi 
