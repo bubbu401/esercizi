@@ -17,8 +17,13 @@ let h =Number (ar [2]);
 
 let risultato ;
 if (poligono ==="quadrato"){
+	if (ar.length ===2){
 	console.log("area e");
 	risultato = area.areaquadrato(b);
+	}else{
+	console.log("devi inserire un solo lato");
+	process.exit(1);
+	}
 }else if (poligono === "rettangolo"){
 	if (ar.length !== 3){
 	console.log("per il rettangolo e necessario inserire due parametri base e altezza");
@@ -28,8 +33,13 @@ if (poligono ==="quadrato"){
 	risultato =  area.arearettangolo(b,h);
 	}
 }else if (poligono === "cerchio"){
+	if (ar.length ===2){
 	console.log("area e");
 	risultato = area.areacerchio(b);
+	}else{
+	console.log("per il cerchio devi inserire solo il raggio");
+	process.exit(1);
+	}
 }else{
 
 	console.log("poligono non riconosciuto");
