@@ -1,0 +1,6 @@
+#file temporanei
+*.tmp
+*.log
+
+#cartella pacchetti node.js
+node_modules/
