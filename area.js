@@ -22,6 +22,9 @@ if (poligono ==="quadrato"){
 }else if (poligono === "rettangolo"){
 	console.log("area e");
 	risultato =  area.arearettangolo(b,h);
+}else if (poligono === "cerchio"){
+	console.log("area e");
+	risultato = area.areacerchio(b);
 }else{
 
 	console.log("poligono non riconosciuto");
